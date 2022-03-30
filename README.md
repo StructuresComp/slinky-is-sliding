@@ -13,10 +13,10 @@ To run the code, you must install the following dependencies first:
 
 ## Files
 - `main.py` trains the Euclidean symmetric neural network
-- `neuralnets.py` contains the DenseNet-like structure
-- `transformation.py` contains the rigid body motion removal module and chirality module
-- `func.py` contains ODEFunc for generating equivariant surrogate forces using Euclidean symmetric neural networks and ODEPhys for generating derivatives used by ODE solvers
-- `misc.py` contains utility functions
+- `slinky/neuralnets.py` contains the DenseNet-like structure
+- `slinky/transformation.py` contains the rigid body motion removal module and chirality module
+- `slinky/func.py` contains ODEFunc for generating equivariant surrogate forces using Euclidean symmetric neural networks and ODEPhys for generating derivatives used by ODE solvers
+- `slinky/misc.py` contains utility functions
 - `PlotHist.m` is the MATLAB code for visualizing training loss history
 - `VisualizeData_Slinky.m` is the MATLAB code for visualizing training results (Slinky motion)
 
