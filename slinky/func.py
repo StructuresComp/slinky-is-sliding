@@ -121,7 +121,7 @@ class ODEPhys(nn.Module):
 		elif self.boundaries[0] == 0 and self.boundaries[1] == 0: # both ends free
 			gravityGrad[...,:,:] = self.gVec
 		else:
-			error("boundary conditions not allowed")
+			raise RuntimeError("boundary conditions not allowed")
 		return gravityGrad
 
 	def forward(self, t, y):
